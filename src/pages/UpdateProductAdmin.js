@@ -5,7 +5,6 @@ import { useParams, useNavigate } from "react-router";
 import NavbarAdmin from "../components/NavbarAdmin";
 import CheckBox from "../components/form/CheckBox";
 
-import dataProduct from "../fakeData/product";
 
 // Import useQuery and useMutation
 import { useQuery, useMutation } from "react-query";

@@ -81,11 +81,11 @@ function App() {
 
       <Route path="/category-admin" element={<CategoryAdmin />} />
       <Route path="/add-category" element={<AddCategoryAdmin />} />
-      <Route path="/update-category/:id" element={<UpdateCategoryAdmin />} />
+      <Route path="/edit-category/:id" element={<UpdateCategoryAdmin />} />
 
       <Route path="/product-admin" element={<ProductAdmin />} />
       <Route path="/add-product" element={<AddProductAdmin />} />
-      <Route path="/update-product/:id" element={<UpdateProductAdmin />} />
+      <Route path="/edit-product/:id" element={<UpdateProductAdmin />} />
       <Route path="/product/:id" element={<DetailProduct />} />
     </Routes>
   );
