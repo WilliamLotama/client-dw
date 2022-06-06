@@ -40,13 +40,13 @@ export default function NavbarAdmin(props) {
             >
               Complain
             </Nav.Link>
-            <Nav.Link
+            {/* <Nav.Link
               as={Link}
               to="/category-admin"
               className={props?.title == "Category admin" ? `text-navbar-active` : `text-navbar`}
             >
               Category
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link
               as={Link}
               to="/product-admin"

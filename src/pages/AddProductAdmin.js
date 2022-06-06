@@ -150,7 +150,7 @@ export default function AddProductAdmin() {
                 onChange={handleChange}
                 className="input-edit-category mt-4"
               />
-              <div className="card-form-input mt-4 px-2 py-1 pb-2">
+              {/* <div className="card-form-input mt-4 px-2 py-1 pb-2">
                 <div className="text-secondary mb-1" style={{ fontSize: "15px" }}>
                   Category
                 </div>
@@ -160,7 +160,7 @@ export default function AddProductAdmin() {
                     {item.name}
                   </label>
                 ))}
-              </div>
+              </div> */}
 
               <div className="d-grid gap-2 mt-4">
                 <Button type="submit" variant="success" size="md">

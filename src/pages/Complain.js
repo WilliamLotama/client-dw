@@ -29,7 +29,7 @@ export default function Complain() {
     const [state] = useContext(UserContext)
 
     useEffect(() =>{
-        socket = io('https://dumbmerch-will.herokuapp.com', {
+        socket = io('https://dumbmerch-will.herokuapp.com'||'https://localhost:5000/api/v1', {
             auth: {
                 token: localStorage.getItem("token")
             },
